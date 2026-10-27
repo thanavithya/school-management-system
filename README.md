@@ -1,20 +1,89 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+🏫 SchoolPro – School Management System
 
-# Run and deploy your AI Studio app
+A Smart, Simple, and Responsive School Management Platform
 
-This contains everything you need to run your app locally.
+SchoolPro is a frontend-based school management system designed to simplify school administration. It helps manage students, teachers, classes, attendance, grades, fees, timetables, examinations, and parent communication through a single dashboard.
 
-View your app in AI Studio: https://ai.studio/apps/07026af5-39f8-4771-8be1-6a95cd21f2f8
+✨ Features
 
-## Run Locally
+📊 Admin Dashboard – Student statistics, teacher counts, attendance overview, and fee summaries.
 
-**Prerequisites:**  Node.js
+👨‍🎓 Student Management – Add, view, edit, delete, and manage student profiles.
 
+👩‍🏫 Teacher Management – Manage teacher details, subjects, and assigned classes.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+🏫 Class & Section Management – Organize classes from 1 to 10 with sections A, B, and C.
+
+📅 Attendance Management – Mark present or absent and generate attendance reports.
+
+📝 Grade Management – Enter marks, calculate grades, and generate report cards.
+
+💰 Fee Management – Manage fee structures, record payments, and track pending balances.
+
+🕒 Timetable Management – Create and view weekly class timetables.
+
+📢 Parent Communication – Publish announcements and display parent information.
+
+📚 Exam Schedule – Schedule examinations and manage subject-wise dates.
+
+📈 Reports – Export reports in CSV and PDF formats.
+
+🔐 Demo Authentication – Login interface with Admin, Teacher, and Parent roles.
+
+🌙 Dark Mode – Switch between light and dark themes.
+
+📱 Responsive Design – Works on desktop, tablet, and mobile devices.
+
+🛠️ Technologies Used
+
+HTML5
+
+CSS3
+
+JavaScript
+
+Bootstrap Icons / Font Awesome
+
+Chart.js
+
+jsPDF
+
+Browser LocalStorage
+
+🎨 Design
+
+Primary Color: Golden Yellow #F59E0B
+
+Background: White #FFFFFF
+
+Accent Color: Light Yellow #FEF3C7
+
+Modern dashboard layout with sidebar navigation
+
+Clean tables, cards, forms, and interactive charts
+
+📂 Project Structure
+
+SchoolPro/
+├── index.html
+├── login.html
+├── register.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   ├── auth.js
+│   ├── storage.js
+│   ├── dashboard.js
+│   ├── students.js
+│   ├── teachers.js
+│   ├── classes.js
+│   ├── attendance.js
+│   ├── grades.js
+│   ├── fees.js
+│   ├── timetable.js
+│   ├── communication.js
+│   ├── exams.js
+│   └── reports.js
+└── assets/
+    └── images/
