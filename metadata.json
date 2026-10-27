@@ -1,0 +1,6 @@
+{
+  "name": "SchoolPro – Smart School Management System",
+  "description": "A comprehensive, responsive school management platform for administrators, teachers, and parents with attendance, grades, fee collection, timetables, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
